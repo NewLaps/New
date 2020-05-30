@@ -8,7 +8,7 @@ thisIsAList = a[:]
 
 print("This is just a test!")
 a1 = [ x * x for x in a]
-print(a)
+print("Normal List(a):", a )
 print(a[0:4:2])
 print(a1)
 random.shuffle(a)
