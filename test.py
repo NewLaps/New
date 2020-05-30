@@ -8,8 +8,8 @@ thisIsAList = a[:]
 
 print("This is just a test!")
 a1 = [ x * x for x in a]
-print("Normal List(a):", a )
-print(a[0:4:2])
+print("Normal list(a):", a )
+print("Item 1 and 3 of list(a):", a[0:4:2])
 print(a1)
 random.shuffle(a)
 print("Random shuffle function on 'a'",a)
