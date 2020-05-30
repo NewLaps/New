@@ -2,12 +2,12 @@ import random
 a = list(range(10))
 b = [random.randint(-5,5) for x in a]
 c = random.randrange(1,10)
-
+a1 = [ x * x for x in a]
 thisIsAList = a[:]
 
 
 print("This is just a test!")
-a1 = [ x * x for x in a]
+
 print("Normal List(a):", a )
 print(a[0:4:2])
 print(a1)
