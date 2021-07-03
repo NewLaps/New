@@ -19,3 +19,7 @@ print(thisIsAList)
 print(thisIsAList *2)
 
 print ("Hello")
+# merge two arrays
+
+
+#print merged array
