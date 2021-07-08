@@ -1,3 +1,4 @@
+from heapq import merge
 import random
 a = list(range(5))
 b = [random.randint(-5,5) for x in a]
@@ -23,3 +24,16 @@ print ("Hello")
 
 
 #print merged array
+def listMerge(array1,array2):
+    a = list(merge(array1,array2))
+    print(a)
+
+
+alist1 = [0,1,2,3]
+blist1 = [6,7,8,9]
+listMerge(alist1, blist1)
+
+listMerge(a1, b)
+
+print(a,b,c)
+
